@@ -1,4 +1,83 @@
+head {
+	background-color: #000;
+
+}
+
 body {
-	color: DarkGray;
-	background-color: CadetBlue
+	background-color: #000;
+}
+a {
+	text-transform: uppercase;
+	color: #A29061;
+	font-family: arial;
+	padding: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 130px;
+	text-decoration: none;
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+}
+
+h3 {
+	margin-top: 0px;
+	font-family: garamond;
+	color: #A29061;
+	text-transform: uppercase;
+	font-size: 26px;
+}
+
+h4	{
+	font-family: garamond;
+	color: #FFF;
+	font-size: 18px;
+	padding-top: 0px;
+}
+
+.wrap {
+	width: 1900px;
+	margin:auto;
+}
+
+#herotext {
+	padding-left: 200px;
+}
+
+#herocopy {
+	padding-left: 200px;
+}
+
+
+#heroimage {
+	background: url("images/mostviolent.jpg") no-repeat scroll;
+	padding-left: 200px;
+	margin: auto;
+	background-color: #000;
+}
+
+#navigationbar {
+	background-color: #000;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#quote {
+	position : absolute ; 
+	left : 120px ; 
+	top : 600px ;
+}
+
+#stars {
+	padding-left: 200px;
+}
+
+#slogan {
+	background: #E7E7DF;
+	font-style: italic;
+	padding-top: 30px;
+	padding-bottom: 1000px;
+	margin-top: 0px;
+	text-align: center;
+	font-size: 24px;
 }
