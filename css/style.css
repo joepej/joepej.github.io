@@ -40,7 +40,7 @@ h4	{
 }
 
 #heroimage{
-	background: url("images/nightcrawler1.jpg") no-repeat center center scroll;
+	background: url("../images/nightcrawler1.jpg") no-repeat center center scroll;
 	background-size: cover;
 	padding: 300px;
 }
