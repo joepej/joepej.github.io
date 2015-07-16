@@ -4,7 +4,7 @@ head {
 }
 
 body {
-	background-color: #000;
+	background-color: #E7E7DF;
 }
 a {
 	text-transform: uppercase;
@@ -21,22 +21,28 @@ a {
 
 h3 {
 	margin-top: 0px;
-	font-family: garamond;
+	font-family: 'Anton', sans-serif;
 	color: #A29061;
 	text-transform: uppercase;
-	font-size: 26px;
+	font-size: 36px;
 }
 
 h4	{
 	font-family: garamond;
 	color: #FFF;
-	font-size: 18px;
-	padding-top: 0px;
+	font-size: 24px;
+	padding: 0px;
 }
 
 .wrap {
 	width: 1900px;
 	margin:auto;
+}
+
+#heroimage{
+	background: url("images/nightcrawler1.jpg") no-repeat center center scroll;
+	background-size: cover;
+	padding: 300px;
 }
 
 #herotext {
@@ -48,12 +54,7 @@ h4	{
 }
 
 
-#heroimage {
-	background: url("images/mostviolent.jpg") no-repeat scroll;
-	padding-left: 200px;
-	margin: auto;
-	background-color: #000;
-}
+
 
 #navigationbar {
 	background-color: #000;
@@ -76,7 +77,6 @@ h4	{
 	background: #E7E7DF;
 	font-style: italic;
 	padding-top: 30px;
-	padding-bottom: 1000px;
 	margin-top: 0px;
 	text-align: center;
 	font-size: 24px;
