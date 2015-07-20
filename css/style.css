@@ -1,83 +1,88 @@
-head {
-	background-color: #000;
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,400);
 
-}
-
-body {
-	background-color: #E7E7DF;
-}
-a {
-	text-transform: uppercase;
-	color: #A29061;
-	font-family: arial;
-	padding: 5px;
-	padding-left: 30px;
-	padding-right: 30px;
-	margin-top: 130px;
-	text-decoration: none;
-	font-family: 'Anton', sans-serif;
-	font-size: 20px;
-}
-
-h3 {
-	margin-top: 0px;
-	font-family: 'Anton', sans-serif;
-	color: #A29061;
-	text-transform: uppercase;
-	font-size: 36px;
-}
-
-h4	{
-	font-family: garamond;
+h1{
 	color: #FFF;
-	font-size: 24px;
-	padding: 0px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	letter-spacing: .1em;
+	text-align: center;
 }
 
-.wrap {
-	width: 1900px;
-	margin:auto;
+a{
+	color: #FFF;
+	margin: auto;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 1em;
+	
+}
+
+body{
+	background-color: #DDDDDD;
 }
 
 #heroimage{
-	background: url("../images/nightcrawler1.jpg") no-repeat center center scroll;
+	background: url("../images/avatar.jpg") no-repeat center center fixed;
 	background-size: cover;
 	padding: 300px;
+	margin: 0;
 }
 
-#herotext {
-	padding-left: 200px;
+#quote{
+	font-family: 'Vollkorn', serif;
+	font-size: 2em;
+	color: #4E4F4F;
+	text-align: center;
+	padding:90px;
+	background-color: #fff;
 }
 
-#herocopy {
-	padding-left: 200px;
+#herotext{
+	position: relative;
+	top: 300px;
+	font-family: 'Vollkorn', serif;
+	color: #FFF;
+	font-size: 2em;
+	text-align: center;
+	width: 800px;
+	margin: auto;
+	background-color: rgba(0,0,0,.5);
+	padding: 40px;
+}
+
+#littlenav{
+	position: absolute;
+	left: 40px;
+	top: -10px;
+
+	
+
 }
 
 
+.wrap{
+	margin: auto;
+	width: 800px;
+}
 
-
-#navigationbar {
-	background-color: #000;
+.navbar{
+	margin: auto;
+	background-color: #4E4F4F; 
 	padding: 20px;
 	text-align: center;
-	margin-top: 50px;
 }
 
-#quote {
-	position : absolute ; 
-	left : 120px ; 
-	top : 600px ;
+.bg{
+	background-color: #FFF;
 }
 
-#stars {
-	padding-left: 200px;
-}
 
-#slogan {
-	background: #E7E7DF;
-	font-style: italic;
-	padding-top: 30px;
-	margin-top: 0px;
-	text-align: center;
-	font-size: 24px;
-}
+
+
+
+
