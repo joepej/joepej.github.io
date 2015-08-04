@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Halant:400,600,700);
+
+h1{
+	font-family: Halant; Serif;
+	float: right;
+}
+
+h2{
+	font-family: Halant; Serif;
+	text-align: center;
+	font-size: 2em;
+}
+
+nav a{
+	font-family: Halant; Serif;
+	color: #000000;
+	font-size: 1.5em;
+	text-decoration: none;
+	float: left;
+	padding: 30px;
+	font-weight: 700;
+}
+
+nav a:hover{
+	color: #BA98CD;
+}
+
+h3{
+	font-family: Halant; Serif;
+	color: #FFF;
+	float: left;
+}
+
+a{
+	float: right;
+	text-decoration: none;
+	font-family: Halant; Serif;
+	color: #FFF;
+	padding: 15px;
+}
+
+p{
+	width: 900px;
+	text-align: center;
+	margin: 0px auto;display:block;
+	padding: 10px;
+}
+
+.line{
+	width: 1200px;
+	color: #BA98CD;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+
+.photo {
+	width: 31.33%;
+	margin:1%;
+	height: 320px;
+	background-color: #009acd;
+	float: left;
+	font-family: Halant;
+	
+}
+
+.blogphoto {
+	margin: 0px auto;display:block;
+	font-family: Halant;
+	height: 450px;
+
+}
+
+.connect{
+	float: right;
+}
+
+.wrap{
+	width: 1200px;
+	margin: auto;
+}
+
+.blogtext{
+	font-family: Halant; Serif;
+	padding: 30px;
+}
+
+#footer{
+	background-color: #3c3c3c;
+	padding: 50px;
+	margin: auto;
+
+}
