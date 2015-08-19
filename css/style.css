@@ -2,93 +2,84 @@
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,400);
 
 *{
-	box-sizing:border-box;
-	margin:0;
-	padding:0;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
 }
 
 h1{
-	color: #FFF;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	font-size: 2em;
-	letter-spacing: .1em;
-	text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+  letter-spacing: .1em;
+  text-align: center;
 }
 
 a{
-	color: #FFF;
-	margin: auto;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
-	text-decoration: none;
-	padding-left: 50px;
-	padding-right: 50px;
-	font-size: 1em;
-	
+  color: #FFF;
+  margin: auto;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 1em;
+  display: inline;
+  
 }
 
 body{
-	background-color: #DDDDDD;
+  background-color: #DDDDDD;
 }
 
 #heroimage{
-	background: url("../images/avatar.jpg") no-repeat center center fixed;
-	background-size: cover;
-	padding: 300px;
-	margin: 0;
+  background: url("../images/avatar.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding: 300px;
+  margin: 0;
 }
 
 #quote{
-	font-family: 'Vollkorn', serif;
-	font-size: 2em;
-	color: #4E4F4F;
-	text-align: center;
-	padding:90px;
-	background-color: #fff;
+  font-family: 'Vollkorn', serif;
+  font-size: 2em;
+  color: #4E4F4F;
+  text-align: center;
+  padding:90px;
+  background-color: #fff;
 }
 
 #herotext{
-	position: relative;
-	top: 300px;
-	font-family: 'Vollkorn', serif;
-	color: #FFF;
-	font-size: 2em;
-	text-align: center;
-	width: 800px;
-	margin: auto;
-	background-color: rgba(0,0,0,.5);
-	padding: 40px;
+  position: relative;
+  top: 300px;
+  font-family: 'Vollkorn', serif;
+  color: #FFF;
+  font-size: 2em;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  background-color: rgba(0,0,0,.5);
+  padding: 40px;
 }
 
 #littlenav{
-	position: absolute;
-	left: 40px;
-	top: -10px;
-
-	
-
+  float: left;
+  margin: auto;
 }
 
 
 .wrap{
-	margin: auto;
-	width: 800px;
+  margin: auto;
+  width: 800px;
 }
 
 .navbar{
-	margin: auto;
-	background-color: #4E4F4F; 
-	padding: 20px;
-	text-align: center;
+  margin: auto;
+  background-color: #4E4F4F; 
+  padding: 20px;
+  text-align: center;
 }
 
 .bg{
-	background-color: #FFF;
+  background-color: #FFF;
 }
-
-
-
-
-
-
